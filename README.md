@@ -1,30 +1,30 @@
-🎵 Melody Music App
-Melody is a simple and interactive music player built using HTML, CSS, and JavaScript. 
-The app provides an elegant interface to browse and play your favorite songs. 
-Instead of using APIs, the app uses a local JSON file to store and manage song data.
+🎵 Melody Music App<br/>
+Melody is a simple and interactive music player built using HTML, CSS, and JavaScript. <br/>
+The app provides an elegant interface to browse and play your favorite songs. <br/>
+Instead of using APIs, the app uses a local JSON file to store and manage song data.<br/>
 
-📝 Features:
-🎶 Play, Pause, and Skip: Users can play, pause, and skip through songs.
-🎵 Song Information Display: Displays song title, artist, and album artwork.
-🔄 Repeat and Shuffle: Options to repeat the current song or shuffle the playlist.
-📜 Dynamic Song List: All song data is stored and loaded from a local songs.json file.
-📊 Progress Bar: Visual representation of the song's progress and time duration.
-🔊 Volume Control: Adjust the volume or mute the sound.
-📱 Responsive Design: The app is fully responsive and looks great on all screen sizes.
+📝 Features:<br/>
+🎶 Play, Pause, and Skip: Users can play, pause, and skip through songs.<br/>
+🎵 Song Information Display: Displays song title, artist, and album artwork.<br/>
+🔄 Repeat and Shuffle: Options to repeat the current song or shuffle the playlist.<br/>
+📜 Dynamic Song List: All song data is stored and loaded from a local songs.json file.<br/>
+📊 Progress Bar: Visual representation of the song's progress and time duration.<br/>
+🔊 Volume Control: Adjust the volume or mute the sound.<br/>
+📱 Responsive Design: The app is fully responsive and looks great on all screen sizes.<br/>
 
 📁 Project Structure:
 The project is organized as follows:
 Melody/
 │
-├── index.html            # Main HTML file for the music app
-├── styles.css            # Stylesheet for the app's layout and design
-├── script.js             # Main JavaScript file to control the app's behavior
-├── songs.json            # JSON file storing song details
-├── songs/               # Folder containing album artwork and icons
-└── README.md             # Project documentation (this file)
+├── index.html            
+├── styles.css            
+├── script.js             
+├── songs.json           
+├── songs/               
+└── README.md            
 
-📜 Song Data (songs.json)
-The songs.json file contains the list of songs available in the app. Each song object includes the following attributes:
+📜 Song Data (songs.json)<br/>
+The songs.json file contains the list of songs available in the app. Each song object includes the following attributes:<br/>
 
 [
   {
@@ -54,30 +54,30 @@ The songs.json file contains the list of songs available in the app. Each song o
   }
 ]
 
-🔧 Technologies Used
-HTML: Markup for structuring the app.
-CSS: Styling the app layout and appearance.
-JavaScript: Implementing app functionality such as song controls and interactions.
-JSON: Storing and managing song details.
+🔧 Technologies Used<br/>
+HTML: Markup for structuring the app.<br/>
+CSS: Styling the app layout and appearance<br/>
+JavaScript: Implementing app functionality such as song controls and interactions.<br/>
+JSON: Storing and managing song details.<br/>
 
-📚 How It Works
-Loading Songs: The song data is loaded from the songs.json file using JavaScript's fetch method or directly from the file.
-Creating Playlist: Songs are dynamically added to the playlist based on the JSON data.
-Playing Songs: Users can select any song to play, with options to play, pause, and skip.
-Updating UI: The app's interface, including song information and progress bar, is updated in real-time as the song plays.
+📚 How It Works<br/>
+Loading Songs: The song data is loaded from the songs.json file using JavaScript's fetch method or directly from the file.<br/>
+Creating Playlist: Songs are dynamically added to the playlist based on the JSON data.<br/>
+Playing Songs: Users can select any song to play, with options to play, pause, and skip.<br/>
+Updating UI: The app's interface, including song information and progress bar, is updated in real-time as the song plays.<br/>
 
-💡 Future Enhancements
-🎛️ Add more controls such as an equalizer.
-📝 Allow users to create custom playlists.
-🔄 Implement song search and filter options.
-🌐 Integrate with a backend API for song data (optional).
+💡 Future Enhancements<br/>
+🎛️ Add more controls such as an equalizer.<br/>
+📝 Allow users to create custom playlists.<br/>
+🔄 Implement song search and filter options.<br/>
+🌐 Integrate with a backend API for song data (optional).<br/>
 
-🤝 Contributing
-Contributions are welcome! Feel free to open an issue or submit a pull request to improve the app.
+🤝 Contributing<br/>
+Contributions are welcome! Feel free to open an issue or submit a pull request to improve the app.<br/>
 
-Fork the project.
-Create your feature branch: git checkout -b feature/new-feature
-Commit your changes: git commit -m 'Add new feature'
-Push to the branch: git push origin feature/new-feature
+Fork the project.<br/>
+Create your feature branch: git checkout -b feature/new-feature<br/>
+Commit your changes: git commit -m 'Add new feature'<br/>
+Push to the branch: git push origin feature/new-feature<br/>
 Open a pull request.
 
